@@ -1,0 +1,8 @@
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+#nav-button {
+	margin-top: 17px;
+}
