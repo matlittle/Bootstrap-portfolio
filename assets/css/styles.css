@@ -56,18 +56,21 @@ body {
 
 
 /* About Page */
-.about-body > img {
+.about-body  img {
 	float: left;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	height: 200px;
-	width: 200px;
+	width: 100%;
+	height: auto;
 }
 
+.about-body > div {
+	padding: 0px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
 
 /* Portfolio Page*/
 .port-block {
-	min-height: 230px;
+	margin: 20px 0px;
 }
 
 .port-block > a {
