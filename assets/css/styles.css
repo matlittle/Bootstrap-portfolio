@@ -1,12 +1,65 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-bottom: 90px;
+}
+
+.header-wrapper, .footer {
+	min-height: 90px;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+	min-width: 450px;
+}
+
+/* Header*/
 .vertical-align {
 	display: flex;
 	align-items: center;
 }
 
-#nav-button {
-	margin-top: 17px;
+/* Content */
+.content-title {
+	font-size: 1.75em;
 }
 
-#connect-links {
+.content-body > img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+/* Connect */
+.connect-links {
 	max-width: 400px;
 }
+
+.connect-links a img {
+	height: 62px;
+	width: 62px;
+}
+
+/* Footer */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-width: 450px;
+	background-color: #333333;
+	text-align: center;
+}
+
+.footer h6 {
+	line-height: 90px;
+	margin: 0;
+	color: #FFF;
+}
+
+
