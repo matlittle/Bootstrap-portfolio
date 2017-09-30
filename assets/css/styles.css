@@ -96,3 +96,27 @@ body {
 	color: #FFF;
 	line-height: 40px;
 }
+
+/* Contact Page */
+#contact-name,
+#contact-email,
+#contact-message {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px 0px 20px 0px;
+	padding: 8px;
+}
+
+#contact-message {
+	height: 200px;
+}
+
+#contact-submit {
+	border: none;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+#contact-form > label {
+	font-size: inherit;
+}
