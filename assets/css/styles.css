@@ -28,14 +28,6 @@ body {
 	font-size: 1.75em;
 }
 
-.content-body > img {
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	height: 200px;
-	width: 200px;
-}
-
 /* Connect */
 .connect-links {
 	max-width: 400px;
@@ -63,3 +55,15 @@ body {
 }
 
 
+/* About Page */
+.about-body > img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+
+/* Portfolio Page*/
+.content-body{  }
